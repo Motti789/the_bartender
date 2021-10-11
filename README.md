@@ -1,2 +1,2 @@
 # the_bartender
-welcome to the bar
+Welcome to the bar! Here you can choose from a selection of our delicious drinks!
