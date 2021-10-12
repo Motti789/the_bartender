@@ -13,4 +13,4 @@ require "enviroment"
 require "irb"
 IRB.start(__FILE__)
 
-puts "Hey"
+# puts "Hey"
