@@ -1,6 +1,10 @@
 require 'net/http'
 require 'open-uri'
 require 'json'
+<<<<<<< HEAD
+=======
+require 'awesome_print'
+>>>>>>> mybranch
 
 class GetPrograms
     
@@ -13,7 +17,11 @@ class GetPrograms
   end
 
   def parse_json
+<<<<<<< HEAD
     programs = JSON.parse(self.get_response_text)
+=======
+    programs = JSON.parse(response.body)
+>>>>>>> mybranch
   end
 
  end 

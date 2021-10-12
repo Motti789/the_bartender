@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby
 
 require_relative '../config/environment.rb'
 
 TheBartender::CLI.new.call
+=======
+require_relative '../config/environment'
+
+CLI.new.call
+>>>>>>> mybranch
 
